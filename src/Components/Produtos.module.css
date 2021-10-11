@@ -2,6 +2,12 @@
   padding: 80px 90px;
   background-color: #f5f7f7;
 }
+
+@media (max-width: 995px) {
+  .produtos {
+    padding: 80px 40px;
+  }
+}
 .titleContent {
   display: flex;
   max-width: 366px;

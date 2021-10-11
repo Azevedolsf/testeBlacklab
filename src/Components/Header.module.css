@@ -12,3 +12,9 @@
 .logo {
   max-width: 70px;
 }
+
+@media (max-width: 995px) {
+  .header {
+    padding: 25px 40px;
+  }
+}
