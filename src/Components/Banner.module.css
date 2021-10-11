@@ -1,0 +1,17 @@
+.banner {
+  background: url("../Assets/banner.png") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  padding: 80px 90px;
+}
+
+.callToAction {
+  max-width: 470px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 34px;
+  margin: 30px 0;
+  opacity: 0.75;
+}

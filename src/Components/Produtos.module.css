@@ -1,0 +1,36 @@
+.produtos {
+  padding: 80px 90px;
+  background-color: #f5f7f7;
+}
+.titleContent {
+  display: flex;
+  max-width: 366px;
+  align-items: center;
+  margin: 0 0 40px 15px;
+}
+
+.title {
+  color: #393939;
+  letter-spacing: -0.6px;
+  font-weight: bold;
+  font-size: 24px;
+  max-width: 250px;
+  margin-left: 25px;
+  margin-bottom: 8px;
+}
+.produtos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 995px) {
+  .produtos ul {
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 0px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
