@@ -12,7 +12,7 @@ const Banner = () => {
                     desenvolvimento de sites e projetos personalizados
                     que demandam front end, UX e UI design
                 </p>
-                <Button />
+                <Button/>
             </div>
         </section>
     )
