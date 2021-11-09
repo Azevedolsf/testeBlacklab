@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Produto.module.css'
-import icon from '../Assets/php-brands.svg'
+import icon from '../../Assets/php-brands.svg'
 console.log(icon);
 const Produto = ({i, p}) => {
     return (

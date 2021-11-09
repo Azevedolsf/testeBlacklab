@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Banner.module.css'
-import Button from './Button'
+import Button from '../Button/Button'
 
 const Banner = () => {
     return (
@@ -12,7 +12,7 @@ const Banner = () => {
                     desenvolvimento de sites e projetos personalizados
                     que demandam front end, UX e UI design
                 </p>
-                <Button/>
+                <Button cor="#fff" fundo="#d70a51"/>
             </div>
         </section>
     )

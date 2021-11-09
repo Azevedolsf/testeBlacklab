@@ -1,25 +1,15 @@
-.button,
-.buttonWhite {
+.button {
   width: 150px;
 
   font-weight: bold;
   padding: 13px 0;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
 
   border: none;
   border-radius: 5px;
 
   cursor: pointer;
-}
-
-.button {
-  background-color: #d70a51;
-}
-.buttonWhite {
-  background-color: #fff;
-  color: #d70a51;
 }
 
 @media (max-width: 760px) {

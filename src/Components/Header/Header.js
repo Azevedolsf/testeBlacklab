@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Header.module.css'
-import Menu from './Menu'
-import logo from '../Assets/logo.png'
+import Menu from '../Menu/Menu'
+import logo from '../../Assets/logo.png'
+
 const Header = () => {
     return (
         <header className={styles.header}>

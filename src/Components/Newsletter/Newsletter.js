@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Newsletter.module.css';
-import icon from '../Assets/letter-icon.png'
-import Button from './Button';
+import icon from '../../Assets/letter-icon.png'
+import Button from '../Button/Button';
 
 const Newsletter = () => {
     return (
@@ -13,7 +13,7 @@ const Newsletter = () => {
             <div>
                 <form className={styles.form}>
                     <input type="text" />
-                    <Button />
+                    <Button cor="#d70a51" fundo="#fff"/>
                 </form>
             </div>
         </section>

@@ -1,6 +1,6 @@
 .newsletter {
   display: flex;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   justify-content: space-between;
   align-items: center;
   padding: 50px 90px;
@@ -9,9 +9,11 @@
 }
 
 .chamada {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
+  margin-right: 20px;
 }
 .icone {
   width: 50px;
@@ -45,9 +47,15 @@
 .form {
   display: flex;
 }
+.form input {
+  border-radius: 5px;
+  border: none;
+}
 @media (max-width: 760px) {
+  .form input {
+    margin-bottom: 5px;
+  }
   .form {
-    flex-direction: column;
     width: 100%;
 
     margin-top: 30px;

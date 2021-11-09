@@ -1,7 +1,7 @@
 import React from 'react'
-import Produto from './Produto'
+import Produto from '../Produto/Produto'
 import styles from './Produtos.module.css'
-import pontos from '../Assets/pontos.png'
+import pontos from '../../Assets/pontos.png'
 
 
 const Produtos = () => {
@@ -20,7 +20,7 @@ const Produtos = () => {
     return (
         <section className={styles.produtos}>
             <div className={styles.titleContent}>
-                <img src={pontos}></img>
+                <img alt={'icone'} src={pontos}></img>
                 <h1 className={styles.title}>Tecnologias que utilizamos</h1>
             </div>
             <ul>
